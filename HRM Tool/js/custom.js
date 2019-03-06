@@ -21,7 +21,7 @@ var table = $("#hrtable" ).DataTable({
 					aaSorting : [3, 'asc'], //Sorting of table could be performed by clicking on arrow keys/column headers. By default I have kept "Position Applied" column aligned in ascending order.Furthur,Other columns sorting can be performed by using arrow keys.
 					info:false,
 					responsive: false,
-					paging: false,
+					paging: true,
 					"searching": true,
 					"scrollX": true,
 					"scrollY": false,
